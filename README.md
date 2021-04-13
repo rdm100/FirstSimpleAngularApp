@@ -1,8 +1,10 @@
 # Employee
 
-This project is a simple first angular project that outputs a Employees table and uses conditional rendering.
+This project is a simple first angular project that outputs a Employees table and uses conditional rendering for the content of the Salary over £45000 rows and their styling.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
+
+Screenshot of app running.
 
 <img src="src/assets/employeeTableComponent.png">
 
