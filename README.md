@@ -4,7 +4,7 @@ This project is a simple first angular project that outputs a Employees table an
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
 
-<img src="public/employeeTableComponent.png">
+<img src="assets/employeeTableComponent.png">
 
 ## Development server
 
