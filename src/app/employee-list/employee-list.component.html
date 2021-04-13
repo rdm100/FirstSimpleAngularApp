@@ -1,5 +1,5 @@
-<table>
-  <thead>
+<table class="table">
+  <thead class="table-primary">
     <tr>
       <th>Forename</th>
       <th>Surname</th>
@@ -13,7 +13,9 @@
       <td>{{ employee.forename }}</td>
       <td>{{ employee.surname }}</td>
       <td>{{ employee.email }}</td>
-      <td>{{ employee.salary }}</td>
+      <td>{{ employee.salary | currency: 'GBP'}}</td>
+      <td class="table-success" *ngIf="employee.salary >= 45000; else myElseBlock">Yes</td>
+      <ng-template #myElseBlock><td>No</td></ng-template>
     </tr>
   </tbody>
 </table>
