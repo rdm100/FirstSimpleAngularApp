@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th>Forename</th>
+      <th>Surname</th>
+      <th>Email</th>
+      <th>Salary</th>
+      <th>Salary over £45000</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employeeList">
+      <td>{{ employee.forename }}</td>
+      <td>{{ employee.surname }}</td>
+      <td>{{ employee.email }}</td>
+      <td>{{ employee.salary }}</td>
+    </tr>
+  </tbody>
+</table>
